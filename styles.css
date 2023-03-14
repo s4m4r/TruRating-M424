@@ -1,0 +1,414 @@
+body {
+    background-color: #F7F7F7;
+    padding-bottom: 0px !important;
+    overflow:hidden;
+}
+
+.parent {
+    position: absolute;
+}
+
+a {
+    color:#000000;
+}
+
+.child {
+    position: relative;
+}
+
+.bg-img {
+    width: 100%;
+    height: auto;
+}
+
+/* Container needed to position the button. Adjust the width as needed */
+.container-lg {
+    position: relative;
+    width: 100%;
+    margin-left: 0;
+    padding: 0;
+}
+
+.container-sm {
+position: absolute;
+max-width: 200px;
+top: 3%;
+left: 12%;
+}
+
+/* Make the image responsive */
+.container-lg img {
+width: 100%;
+height: auto;
+
+}
+
+/* Style the button and place it in the middle of the container/image */
+.begin-btn {
+position: absolute;
+top: 65vh;
+left: 30vw;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+background-color: #0A69C7;
+color: white;
+font-family: 'poppins';
+font-size: 16px;
+font-weight: 500;
+padding: 10px 55px;
+border: none;
+cursor: pointer;
+border-radius: 5px;
+}
+
+.hid-btn {
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    background-color: #FFFFFF;
+    border: none;
+
+}
+
+
+.btn-blank {
+position: absolute;
+top: 34%;
+left: 9%;
+padding: 45px 192px;
+}
+
+.questionaire {
+position: absolute;
+top: 35vh;
+left: 5vw;
+font-family: 'poppins';
+font-weight: 400;
+font-size: 35px;
+text-align: left;
+}
+
+.thanks-pb-3 {
+    position: absolute;
+    top: 35vh;
+    left: 5vw;
+    font-family: 'poppins';
+    font-weight: 400;
+    font-size: 35px;
+    text-align: left;
+    }
+
+.answer-bar {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+}
+
+.button-group {
+    position: absolute;
+    top: 60vh;
+    left: 5vw;
+}
+
+.yes4 {
+    padding-right: 120px;
+    font-family: 'poppins';
+    font-weight: 400;
+    font-size: 35px;
+} 
+
+.no6 {
+    font-family: 'poppins';
+    font-weight: 400;
+    font-size: 35px;
+}
+
+.logo {
+    width:300px;
+    height:100px;
+    text-align: center;
+}
+
+.aloha {
+    text-align: center;
+}
+
+.pay-capture {
+    position: relative;
+    font-family: 'poppins';
+    font-weight: 500;
+    font-size: 20px;
+    top: 50vh;
+    left: 59vw;
+    
+}
+
+.checkbox {
+    position: relative;
+    top: 40vh;
+    left: 63vw;
+}
+
+.verifone-logo {
+    position: absolute;
+    top: 5vh;
+    left: 62vw;
+    height: 25px;
+    width: auto;
+
+}
+
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'poppins';
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-bottom: 0;
+}
+
+.right-side {
+    padding-right: 30px;
+}
+
+.total-bar-list-item {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'poppins';
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.scroll-list {
+    overflow: scroll;
+}
+
+.list-item-hr {
+    margin: 0;
+    width: 94vw;
+    position: relative;
+    left: 3vw;
+}
+
+.total-bar-hr {
+    margin: 0;
+    position: relative;
+    height: 3px;
+    
+}
+
+.btn-box {
+    position: relative;
+    left: 0vw;
+    margin-left: 0vw;
+}
+
+.cancel-btn {
+    background-color: #8999A9;
+    width: 256px;
+    height:64px;
+    color: #fff;
+    padding-left: 95px;
+    padding-top: 19px;
+    padding-bottom: 16px;
+    font-family: 'poppins';
+}
+
+.accept-btn {
+    background-color: #0A69C7;
+    color: #fff;
+    height: 64px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 19px;
+    padding-bottom: 16px;
+    font-family: 'poppins';
+}
+
+.tru-banner {
+    position: relative;
+    height: 56px;
+    width: auto;
+    left: 23vw;
+    top: 3vh;
+}
+
+.thanks {
+    font-family: 'poppins';
+    font-weight: 600;
+    font-size: 40px;
+    text-align: left;
+}
+
+.text-thanks {
+    font-family: 'poppins';
+    font-weight: 600;
+    font-size: 30px;
+    text-align: left;
+}
+
+.vspacer-300 {
+    height:300px;
+}
+
+.vertical-scroll {
+    overflow-y: scroll;
+    height: 260px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list-item2 {
+    font-family: 'poppins';
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.hidden-logo2 {
+    background-color: Transparent;
+    position: absolute;
+    border: none;
+    top: 200px;
+    left: 20px;
+    width: 550px;
+    height:170px;
+    z-index:1;
+}
+
+.space {
+   justify-content: space-between;
+}
+
+.logo-receipt {
+    width:250px;
+    height:100px;
+}
+
+.hidden-logo {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    width: 430px;
+    height:130px;
+    z-index:1;
+}
+
+.bg-acknowledge {
+    background-image: url('../images/thanks_bg.png');
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+.bg-q1 {
+    background-image: url('../images/q1_bg.png');
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+hr {
+    border-color: #C4CCD4;
+    width:100%;
+}
+@media screen and (min-width: 424px) and (max-width: 754px) {
+    .vertical-scroll {
+        height: 150px;
+    }
+
+    .list-item2 {
+        font-size: 18px;
+    }
+
+    .cancel-btn {
+        background-color: #8999A9;
+        width: 156px;
+        height:50px;
+        color: #fff;
+        padding-left: 46px;
+        padding-top: 14px;
+        padding-bottom: 16px;
+        font-family: 'poppins';
+    }
+
+    .vspacer-300 {
+        height:230px;
+    }
+
+    .text-thanks {
+        font-family: 'poppins';
+        font-weight: 600;
+        font-size: 28px;
+        text-align: left;
+    }
+
+    .logo-receipt {
+        width:180px;
+        height:70px;
+    }
+
+    .accept-btn {
+        background-color: #0A69C7;
+        color: #fff;
+        height: 50px;
+        padding-left: 80px;
+        padding-right: 80px;
+        padding-top: 14px;
+        padding-bottom: 16px;
+        font-family: 'poppins';
+    }
+
+    hr {
+        margin-top:0;
+    }
+
+    .questionaire {
+        font-size: 30px;
+    }
+    
+    .yes4 {
+        font-size: 30px;
+    } 
+    
+    .no6 {
+        font-size: 30px;
+    }
+
+    .hidden-logo {
+        position: absolute;
+        top: 110px;
+        left: 30px;
+        width: 430px;
+        height:130px;
+        z-index:1;
+    }
+
+    .begin-btn {
+        top: 74vh;
+    }
+
+    .bg-acknowledge {
+        background-image: url('../images/M424-Acknowledgement.jpg');
+    }
+
+    .hidden-logo2 {
+        background-color: Transparent;
+        position: absolute;
+        border: none;
+        top: 110px;
+        left: 20px;
+        width: 500px;
+        height:170px;
+        z-index:1;
+    }
+
+    .bg-q1 {
+        background-image: url('../images/M424-Question1.jpg');
+        background-size: cover; 
+        background-repeat: no-repeat;
+    }
+}
